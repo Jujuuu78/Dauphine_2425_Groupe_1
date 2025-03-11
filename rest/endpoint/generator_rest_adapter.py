@@ -11,7 +11,8 @@ class GeneratorRestAdapter:
 
     async def chat(self, request: ChatRequest) -> ChatResponse:
         try:
-            response = self.controller.generate_message(request.prompt)
+            print(request)
+            response = self.controller.generate_message(request.prompt,request.chat_history_id)
             return ChatResponse(response=response)
         except Exception as e:
             raise HTTPException(status_code=500, detail=str(e))
