@@ -35,7 +35,8 @@ class HistoricRepository:
                 historic = Historic(id=id_historic, interactions=interactions)
 
             # Mise à jour du dictionnaire avec le nouvel historique
-            data[str(id_historic)] = historic.dict()
+            data[str(id_historic)] = historic.model_dump()
+            print(data)
 
             # Réécriture complète du fichier en sérialisant correctement les UUID
             f.seek(0)

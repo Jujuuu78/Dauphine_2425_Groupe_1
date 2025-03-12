@@ -103,7 +103,7 @@ COHERE_API_KEY=your_api_key_here
 To start the FastAPI server, run the following command:
 
 ```bash
-uvicorn rest.api:rest_api
+uvicorn rest.api:rest_api --reload --log-level debug
 ```
 
 You can interact with your API using SwaggerUI, which is automatically provided by FastAPI, or using a tool like Postman.

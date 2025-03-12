@@ -1,3 +1,37 @@
 {
-    "df34a969-b1b0-4069-b540-f141b6a16ecb": {
-        "id": 
+    "37dcc2c1-9c2d-49e1-9eb7-c2bb593526d0": {
+        "id": "37dcc2c1-9c2d-49e1-9eb7-c2bb593526d0",
+        "interactions": [
+            {
+                "id": "8a782586-246e-419f-935c-29add39dafda",
+                "prompt": "Hello world!",
+                "response": "Hello! How can I help you today?"
+            }
+        ]
+    },
+    "1d86528f-cefc-4e5e-828c-98f898e93428": {
+        "id": "1d86528f-cefc-4e5e-828c-98f898e93428",
+        "interactions": [
+            {
+                "id": "b5278a0c-43a6-4f37-8d84-955b5c34ef03",
+                "prompt": "je m'appelle cyril ",
+                "response": "Enchant\u00e9, Cyril ! Je suis ravi de faire votre connaissance. Puis-je vous aider avec quelque chose de sp\u00e9cifique aujourd'hui ? N'h\u00e9sitez pas \u00e0 me poser des questions ou \u00e0 me partager vos pens\u00e9es."
+            },
+            {
+                "id": "0fd2763c-6b87-46f5-bd64-c0503c5f9654",
+                "prompt": "comment je m'appelle ?",
+                "response": "Vous vous appelez Cyril, si je ne me trompe pas. Ai-je bien retenu votre nom ? Puis-je vous aider avec autre chose ?"
+            }
+        ]
+    },
+    "16d20e88-a3fe-4376-9e0e-83277e27ba7b": {
+        "id": "16d20e88-a3fe-4376-9e0e-83277e27ba7b",
+        "interactions": [
+            {
+                "id": "5025ace4-1d3e-4954-8832-6f9602acab8a",
+                "prompt": "comment je m'appelle ?",
+                "response": "Je suis d\u00e9sol\u00e9, mais je ne peux pas r\u00e9pondre \u00e0 cette question. En tant qu'assistant AI, je n'ai pas acc\u00e8s \u00e0 des informations personnelles sur les utilisateurs. Je suis con\u00e7u pour fournir des informations et des r\u00e9ponses bas\u00e9es sur les donn\u00e9es et les connaissances que j'ai acquises, mais je ne peux pas acc\u00e9der \u00e0 des d\u00e9tails sp\u00e9cifiques sur les individus.\n\nSi vous avez des questions sur des sujets g\u00e9n\u00e9raux, des faits, des recherches ou des informations, n'h\u00e9sitez pas \u00e0 me les poser, et je ferai de mon mieux pour vous fournir des r\u00e9ponses utiles et informatives."
+            }
+        ]
+    }
+}
